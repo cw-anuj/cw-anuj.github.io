@@ -88,7 +88,7 @@ button {
   }
   
 .PopUp {
-    background: rgb(172, 11, 11);
+    background: black;
     max-width: 30vw;
     min-width: 400px;
     height: 300px;
@@ -99,7 +99,7 @@ button {
     align-items: center;
     font-size: 2rem;
     border-radius: 15px;
-    color: green;
+    color: white;
     z-index: 2;
     position: absolute;
 }
