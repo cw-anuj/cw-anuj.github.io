@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> A✈️ Zone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="SignUp" action="">
+        <h3>Sign Up</h3>
+
+        <div>
+            <label for="">Username:</label>
+            <input id="username" type="username" required />
+            <p class="Error" id="usernameerr">
+                UserName must be between 3 and 25 characters.
+            </p>
+        </div>
+        <div>
+            <label>Email:</label>
+            <input id="email" type="email" required/>
+            <p class="Error" id="emailerr">
+                Enter Valid Email Address.
+            </p>
+        </div>
+        <div class="PW">
+            <label>Password:</label>
+            <input id="password" type="password" required />
+            <p class="Error" id="passworderr">
+                Password must has at least eight characters that include 1 lowercase
+                character, 1 uppercase character, 1 number, and 1 special character in
+                (!@#$%^&*).
+            </p>
+            <img class="eye"
+                id="HideunhidePassword"
+                src="https://img.icons8.com/material-two-tone/24/000000/hide.png"
+            />
+        </div>
+        <div>
+            <label>Confirm Password:</label>
+            <input id="cnf-password" type="password" required />
+            <p class="Error" id="cnf-passworderr">
+                    Enter Password Again.
+            </p>
+            <img class="eye2"
+                id="HideunhidePassword2"
+                src="https://img.icons8.com/material-two-tone/24/000000/hide.png"
+            />
+        </div>
+
+        <button id="submit" type="submit">SIGN UP</button>
+    </form>
+
+    <div class="PopUp">
+        "Your are signed up."
+        <i class="Cross">❌</i>
+    </div>
+    <script src="./myjs.js"></script>
+</body>
+</html>

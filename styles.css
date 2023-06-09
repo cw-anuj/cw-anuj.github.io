@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+    background: white;
+    text-align: center;
+    padding-top: 15px ;
+    border-radius: 6px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 75%;
+}
+
+label{
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #858072;
+}
+
+input {
+    height: 32px;
+    width:100%;
+    outline: none;
+    border:1px solid black;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.Error{
+    display:none;
+}
+
+.PW{
+    display: flex;
+}
+
+/* #HideunhidePassword {
+    position: absolute;
+    right: 35em;
+    top: 33.3em;
+} */
+  
+#Wrong {
+    border: 2px solid red;
+}
+  
+#Right{
+    border: 2px solid green;
+}
+  
+button {
+    padding: 10px;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+  }
+  
+.PopUp {
+    background: rgb(172, 11, 11);
+    max-width: 30vw;
+    min-width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 15px;
+    color: green;
+    z-index: 2;
+    position: absolute;
+}
+  
+.Cross {
+    position: absolute;
+    top:15px;
+    right:15px;
+    cursor: pointer;
+}
+
+  @media screen and (max-width: 430px) {
+    .SignUp {
+      width: 90vw;
+    }
+    .PopUp {
+      max-width: 70vw;
+      min-width: 70vw;
+    }
+  }
+
+  .eye{
+    position: relative;
+    left: 91%;
+    bottom: 2rem;
+  }
+
+  .eye2{
+    position: relative;
+    left: 91%;
+    bottom: 2rem;
+  }
