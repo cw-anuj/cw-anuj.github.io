@@ -114,11 +114,11 @@ button {
   @media screen and (max-width: 430px) {
     .SignUp {
       width: 90vw;
-    }
+    };
     .PopUp {
       max-width: 70vw;
       min-width: 70vw;
-    }
+    };
   }
 
   .eye{
